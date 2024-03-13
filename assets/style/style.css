@@ -1,0 +1,52 @@
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+body{
+    background-color: aquamarine;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.carta{
+    background-color: rgb(255, 183, 0);
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.cart_Son1 > div > p{
+    text-align: center;
+}
+
+
+.cart_Son2 > ul{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cart_Son2 > ul > li{
+    background-color: brown;
+    padding: 5px;
+    color: aliceblue;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button > a > button{
+background-color: blue;
+color: azure;
+font-size: 20px;
+border: none;
+cursor: pointer;
+padding: 10px;
+border-radius: 9px;
+}
